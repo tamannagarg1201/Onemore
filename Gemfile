@@ -31,6 +31,11 @@ group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
+group :production do
+  gem 'pg', '0.15.0'
+  gem 'rails_12factor', '0.0.2'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
