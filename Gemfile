@@ -23,6 +23,7 @@ group :assets do
   gem 'uglifier', '>= 2.1.1'
 end
 
+#gem ’rb-readline’
 gem 'jquery-rails', '3.0.4'
 gem 'jbuilder','1.5.0'
 gem 'turbolinks', '1.2.0'
